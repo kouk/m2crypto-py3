@@ -1,0 +1,199 @@
+This package was debianized by Dima Barsky <dima@debian.org> on
+Sun, 28 Mar 2004 19:42:33 +0100.
+
+It was downloaded from <http://pypi.python.org/packages/source/M/M2Crypto/M2Crypto-0.21.1.tar.gz>
+
+Upstream Author: Ng Pheng Siong <ngps@netmemetic.com>
+Current upstream maintainer: Heikki Toivonen (heikki@osafoundation.org)
+
+Copyright (c) 1999-2003 Ng Pheng Siong. All rights reserved.
+
+Portions copyright (c) 2004-2006 Open Source Applications Foundation. 
+All rights reserved.
+
+Portions copyright (c) 2005-2006 Vrije Universiteit Amsterdam. 
+All rights reserved.
+
+Permission to use, copy, modify, and distribute this software and its
+documentation for any purpose and without fee is hereby granted,
+provided that the above copyright notice appear in all copies and that
+both that copyright notice and this permission notice appear in
+supporting documentation.
+
+THE AUTHOR PROVIDES THIS SOFTWARE ``AS IS'' AND ANY EXPRESSED OR 
+IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES 
+OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  
+IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, 
+INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, 
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY 
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT 
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE 
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Files: demo/tinderbox/build_lib.py
+Copyright: © 2006-2007 Open Source Applications Foundation
+License: Apache-2.0
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ .
+     http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+
+Files: demo/tinderbox/killableprocess.py
+Copyright: ©2003-2004 by Peter Astrand <astrand@lysator.liu.se>
+ © 2006 by the Mozilla Foundation <http://www.mozilla.org/>
+License: killableprocess
+ By obtaining, using, and/or copying this software and/or its
+ associated documentation, you agree that you have read, understood,
+ and will comply with the following terms and conditions:
+ .
+ Permission to use, copy, modify, and distribute this software and
+ its associated documentation for any purpose and without fee is
+ hereby granted, provided that the above copyright notice appears in
+ all copies, and that both that copyright notice and this permission
+ notice appear in supporting documentation, and that the name of the
+ author not be used in advertising or publicity pertaining to
+ distribution of the software without specific, written prior
+ permission.
+ .
+ THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE,
+ INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS.
+ IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, INDIRECT OR
+ CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS
+ OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT,
+ NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION
+ WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+Files: demo/tinderbox/winprocess.py
+Copyright: © 2006 the Mozilla Foundation <http://www.mozilla.org/>
+License: MIT
+ Permission is hereby granted, free of charge, to any person obtaining a
+ copy of this software and associated documentation files (the "Software"),
+ to deal in the Software without restriction, including without limitation
+ the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ and/or sell copies of the Software, and to permit persons to whom the
+ Software is furnished to do so, subject to the following conditions:
+ . 
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ DEALINGS IN THE SOFTWARE.
+
+Some files under demo/Zope*:
+Copyright: © 2001 Zope Corporation and Contributors. All Rights Reserved.
+License: ZPL-2.0
+Comment:
+ This software is subject to the provisions of the Zope Public License,
+ Version 2.0 (ZPL).  A copy of the ZPL should accompany this distribution.
+ THIS SOFTWARE IS PROVIDED "AS IS" AND ANY AND ALL EXPRESS OR IMPLIED
+ WARRANTIES ARE DISCLAIMED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ WARRANTIES OF TITLE, MERCHANTABILITY, AGAINST INFRINGEMENT, AND FITNESS
+ FOR A PARTICULAR PURPOSE
+
+License: ZPL-2.0
+  Zope Public License (ZPL) Version 2.0
+  -----------------------------------------------
+ .
+ This software is Copyright (c) Zope Corporation (tm) and
+ Contributors. All rights reserved.
+ .
+ This license has been certified as open source. It has also
+ been designated as GPL compatible by the Free Software
+ Foundation (FSF).
+ .
+ Redistribution and use in source and binary forms, with or
+ without modification, are permitted provided that the
+ following conditions are met:
+ .
+ 1. Redistributions in source code must retain the above
+    copyright notice, this list of conditions, and the following
+    disclaimer.
+ .
+ 2. Redistributions in binary form must reproduce the above
+    copyright notice, this list of conditions, and the following
+    disclaimer in the documentation and/or other materials
+    provided with the distribution.
+ .
+ 3. The name Zope Corporation (tm) must not be used to
+    endorse or promote products derived from this software
+    without prior written permission from Zope Corporation.
+ .
+ 4. The right to distribute this software or to use it for
+    any purpose does not give you the right to use Servicemarks
+    (sm) or Trademarks (tm) of Zope Corporation. Use of them is
+    covered in a separate agreement (see
+    http://www.zope.com/Marks).
+ .
+ 5. If any files are modified, you must cause the modified
+    files to carry prominent notices stating that you changed
+    the files and the date of any change.
+ .
+ Disclaimer
+ .
+ THIS SOFTWARE IS PROVIDED BY ZOPE CORPORATION ``AS IS''
+ AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT
+ NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY
+ AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN
+ NO EVENT SHALL ZOPE CORPORATION OR ITS CONTRIBUTORS BE
+ LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+ CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+ OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
+ DAMAGE.
+ .
+ .
+ This software consists of contributions made by Zope
+ Corporation and many individuals on behalf of Zope
+ Corporation.  Specific attributions are listed in the
+ accompanying credits file.
+
+Some files in demo/medusa:
+Copyright: © 1996 by Sam Rushing
+License: medusa
+                         All Rights Reserved
+ .
+ Permission to use, copy, modify, and distribute this software and
+ its documentation for any purpose and without fee is hereby
+ granted, provided that the above copyright notice appear in all
+ copies and that both that copyright notice and this permission
+ notice appear in supporting documentation, and that the name of Sam
+ Rushing not be used in advertising or publicity pertaining to
+ distribution of the software without specific, written prior
+ permission.
+ .
+ SAM RUSHING DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE,
+ INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN
+ NO EVENT SHALL SAM RUSHING BE LIABLE FOR ANY SPECIAL, INDIRECT OR
+ CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS
+ OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT,
+ NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
+ CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+Some files in demo/x509/proxylib.py are copyrighted by The Regents of the
+University of California through Lawrence Berkeley National Laboratory, but
+distributed under the same terms as m2crypto.  This was confirmed directly by
+MR to me in august 2011 -- Charles Plessy
+
+Files: contrib/m2crypto.spec
+Copyright tummy.com, ltd.
+License: probably same as m2crypto
+ (In my understanding from the discussion about demo/x509/proxylib.py, where
+  the upstream autor expected contributions to be done under the same terms
+  as m2crypto itself -- Charles Plessy)
