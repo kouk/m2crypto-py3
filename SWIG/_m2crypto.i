@@ -38,6 +38,19 @@ static PyObject *ssl_set_tmp_rsa_cb_func;
 #define CONST098
 #endif
 
+/* Bring in STACK_OF macro definition */
+%include <openssl/safestack.h>
+
+/* Bring in LHASH_OF macro definition */
+/* XXX Can't include lhash.h where LHASH_OF is defined, because it includes
+   XXX stdio.h etc. which we fail to include. So we have to (re)define
+   XXX LHASH_OF here instead.
+%include <openssl/lhash.h>
+*/
+#if OPENSSL_VERSION_NUMBER >= 0x10000000L
+#define LHASH_OF(type) struct lhash_st_##type
+#endif
+
 %include constraints.i
 %include _threads.i
 %include _lib.i

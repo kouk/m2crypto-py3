@@ -6,7 +6,7 @@ Copyright (C) 2006 Open Source Applications Foundation. All Rights Reserved.
 """
 
 import unittest
-from M2Crypto import SMIME, BIO, Rand, X509, EVP
+from M2Crypto import SMIME, BIO, Rand, X509, EVP, Err
 
 class SMIMETestCase(unittest.TestCase):
     cleartext = 'some text to manipulate'
@@ -213,7 +213,7 @@ class WriteLoadTestCase(unittest.TestCase):
 
         self.filenameSmime = 'tests/sig.p7s'
         f = BIO.openfile(self.filenameSmime, 'wb')
-        assert s.write(f, p7, BIO.MemoryBuffer('some text')) == 1
+        assert s.write(f, p7, BIO.MemoryBuffer('some text')) == 1, Err.get_error()
         f.close()
         
     def test_write_pkcs7_der(self):

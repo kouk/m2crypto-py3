@@ -405,8 +405,11 @@ class MiscSSLClientTestCase(BaseSSLClientTestCase):
         try:
             ctx = SSL.Context('sslv23', weak_crypto=1)
             s = SSL.Connection(ctx)
-            s.connect(self.srv_addr)
-            self.failUnlessEqual(s.get_version(), 'SSLv2')
+            if m2.OPENSSL_VERSION_NUMBER < 0x10000000: # SSLv2 ciphers disabled by default in newer OpenSSL
+                s.connect(self.srv_addr)
+                self.failUnlessEqual(s.get_version(), 'SSLv2')
+            else:
+                self.assertRaises(SSL.SSLError, s.connect, self.srv_addr)
             s.close()
         finally:
             self.stop_server(pid)

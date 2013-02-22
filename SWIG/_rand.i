@@ -87,7 +87,7 @@ PyObject *rand_pseudo_bytes(int n) {
         Py_INCREF(Py_None);
         return Py_None;
     } else {
-        PyTuple_SET_ITEM(tuple, 0, PyString_FromStringAndSize(blob, n));
+        PyTuple_SET_ITEM(tuple, 0, PyString_FromStringAndSize((char*)blob, n));
         PyMem_Free(blob);
         PyTuple_SET_ITEM(tuple, 1, PyInt_FromLong((long)ret));
         return tuple;

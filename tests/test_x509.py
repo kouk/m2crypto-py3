@@ -142,7 +142,7 @@ class X509TestCase(unittest.TestCase):
         cn.set_data("Hello There!")
         assert cn.get_data().as_text() == "Hello There!", cn.get_data().as_text()
 
-        assert n.as_hash() == 1697185131
+        self.assertEquals(n.as_hash(), 1697185131)
         
         self.assertRaises(IndexError, lambda: n[100])
         self.assert_(n[10])
